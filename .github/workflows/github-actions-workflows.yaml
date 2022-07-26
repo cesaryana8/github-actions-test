@@ -1,0 +1,9 @@
+name : GitHub Actions Workflow
+on : Workflow_dispatch
+
+jobs :
+ Job-Workflow :
+    run-on : ubuntu-latest
+    steps :
+      - name : Acción 1
+        run : echo "Actions 1 Workflow"
